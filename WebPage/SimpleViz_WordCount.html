@@ -1,0 +1,48 @@
+<html>
+<head>
+    <title>Visualization for word count</title>
+    <script type="text/javascript" src="http://public.tableausoftware.com/javascripts/api/tableau_v8.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="header" style="text-align:center; border:thick; border-style: solid; border-color: black;">
+        <h2>DIC Lab2 Visualization of Tableau Dashboard</h2>
+        <h3>Members: smitra2, animeshp</h3>
+    </div>
+    <div id="nav" style="display:flex; float:right;">
+            <div id="wordcount"><a href="SimpleViz_WordCount.html">Word Count</a></div>&nbsp&nbsp
+            <div id="wordcooccurance"><a href="SimpleViz_WordCo-occurance.html">Word Co-occurance</a></div>
+    </div>
+    <div id="selection" style="width:100%;">
+        <select id="sport" style="margin-left:42%;">
+            <option value="baseball">Baseball</option>
+            <option value="basketball">Basketball</option>
+            <option value="football">Football</option>
+            <option value="rugby">Rugby</option>
+        </select>
+        <select id="source">
+                <option value="twitter">Twitter</option>
+                <option value="nyt">NYT</option>
+                <option value="commoncrawl">Common Crawl</option>
+                <option value="both">All</option>
+        </select>
+        <select id="set">
+            <option value="partial">Subset</option>
+            <option value="full">Full</option>
+            <option value="both">Both</option>
+        </select>
+        <button id="submit" onclick="decideView()">Go</button>
+    </div>
+<div id="container" style="width:100%;display: flex;flex-direction: row;"> 
+<!-- <div id="container"> -->
+<div id="tableauViz"></div>
+<div id="tableauViz1"></div>
+</div>
+<div id="container1" style="width:100%;display: flex;flex-direction: row;"> 
+<div id="tableauViz2"></div>
+<div id="tableauViz3"></div>
+</div>
+<div id="tableauViz4"></div>
+</div>
+</body>
+</html>

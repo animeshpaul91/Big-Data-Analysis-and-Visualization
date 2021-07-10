@@ -11,8 +11,11 @@ This is the meat of the project. Here I wrote mapper and reducer programs for MR
 ### Data Visualization and Ranking: 
 The data was then ranked from most frequent to least frequent. For the Word Count task, the word with the highest number of occurrences were ranked first, while for  the Word Co-occurrence task, pairs of words that appeared together with the highest frequencies were ranked at the top. The top 10 words for each task were displayed using Tableau on top of a simple Javascript web application.
 
-### Result in Snaps
+### Result in Snaps:
+#### Word Count's Top 10 Words:
 
-#### Word Count
-##### Basketball (Src: Twitter)
 ![Basketball_Twitter](https://github.com/animeshpaul91/Big-Data-Pipeline-with-Hadoop-and-MR/blob/master/Part2/Results/Twitter/Basketball_top10WC.png?raw=true)
+![Basketball_NY_Times](https://github.com/animeshpaul91/Big-Data-Pipeline-with-Hadoop-and-MR/blob/master/Part2/Results/NYT/Basketball_top10WC.png?raw=true)
+![Basketball_Common_Crawl](https://github.com/animeshpaul91/Big-Data-Pipeline-with-Hadoop-and-MR/blob/master/Part2/Results/CC/Basketball_top10WC.png?raw=true)
+
+#### Word Co-Occurrence Top 10 Words:
